@@ -45,3 +45,12 @@ db_backup/
 *backup*.zip
 manthan_complete_*.zip
 manthan_production.zip
+
+# Markdown files
+*.md
+
+# Ignore all files in the root folder except specific ones
+/*
+!/*/
+!/.gitignore
+!/README.md
