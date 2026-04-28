@@ -480,7 +480,7 @@ export const corporateBenefits = [
 ];
 
 // ─── Gallery Category Images ───────────────────────────────────────────────
-const GALLERY_BASE = "/Manthan photos";
+const GALLERY_BASE = "/Manthan%20photos";
 
 export const categoryImages = {
   adventures: {
