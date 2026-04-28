@@ -12,6 +12,7 @@ import ActivitiesPage from "./pages/ActivitiesPage";
 import ELQsPage from "./pages/ELQsPage";
 import ActivityToELQPage from "./pages/ActivityToELQPage";
 import GalleryPage from "./pages/GalleryPage";
+import GalleryCategoryPage from "./pages/GalleryCategoryPage";
 import InstitutionsPage from "./pages/InstitutionsPage";
 import TestimonialsPage from "./pages/TestimonialsPage";
 import DayAtManthanPage from "./pages/DayAtManthanPage";
@@ -57,6 +58,7 @@ function App() {
           <Route path="/elqs" element={<ELQsPage />} />
           <Route path="/how-it-works" element={<ActivityToELQPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/gallery/:slug" element={<GalleryCategoryPage />} />
           <Route path="/institutions" element={<InstitutionsPage />} />
           <Route path="/testimonials" element={<TestimonialsPage />} />
           <Route path="/submit-review" element={<SubmitReviewPage />} />
