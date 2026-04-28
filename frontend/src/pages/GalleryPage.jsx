@@ -1,7 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Images } from 'lucide-react';
 import { categoryImages, getImageUrl } from '../mockData';
+
+// Tries each image in the category list until one loads successfully
+const SmartCoverImage = ({ cat }) => {
+  const [tryIndex, setTryIndex] = useState(0);
+  const [allFailed, setAllFailed] = useState(false);
+
+  if (allFailed || cat.images.length === 0) {
+    return null; // fall through to the gradient background
+  }
+
+  const src = getImageUrl(cat.folder, cat.images[tryIndex]);
+
+  return (
+    <img
+      key={src}
+      src={src}
+      alt={cat.label}
+      className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+      loading="lazy"
+      onError={() => {
+        if (tryIndex + 1 < cat.images.length) {
+          setTryIndex(tryIndex + 1); // try next image
+        } else {
+          setAllFailed(true); // all images failed, show gradient only
+        }
+      }}
+    />
+  );
+};
 
 const GalleryPage = () => {
   const categories = Object.entries(categoryImages); // [slug, data]
@@ -52,10 +81,6 @@ const GalleryPage = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {categories.map(([slug, cat]) => {
-              // pick the first image as the cover
-              const coverFile = cat.images[0];
-              const coverUrl = getImageUrl(cat.folder, coverFile);
-
               return (
                 <Link
                   key={slug}
@@ -63,16 +88,8 @@ const GalleryPage = () => {
                   className="group block rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 bg-white"
                 >
                   {/* Cover image */}
-                  <div className="relative overflow-hidden aspect-[4/3] bg-gray-200">
-                    <img
-                      src={coverUrl}
-                      alt={cat.label}
-                      className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                      loading="lazy"
-                      onError={(e) => {
-                        e.target.style.display = 'none';
-                      }}
-                    />
+                  <div className="relative overflow-hidden aspect-[4/3] bg-gradient-to-br from-[#0A1F44] to-[#0D2A5C]">
+                    <SmartCoverImage cat={cat} />
                     {/* Dark gradient overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
