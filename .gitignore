@@ -54,3 +54,17 @@ manthan_production.zip
 !/*/
 !/.gitignore
 !/README.md
+
+# Allow gh-pages build output files at root
+!index.html
+!404.html
+!CNAME
+!.nojekyll
+!asset-manifest.json
+!robots.txt
+!manifest.json
+!favicon.ico
+!*.png
+!*.ico
+!*.txt
+!*.json
