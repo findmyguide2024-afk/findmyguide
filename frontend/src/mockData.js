@@ -134,7 +134,7 @@ export const testimonials = [
     age: 22,
     role: "Chess Master",
     program: "Manthan Leadership",
-    image: "/images/IMG_0738.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/IMG_0738.jpeg`,
     quote: "Thankyou so much Rajeev sir, Priya Negi for giving us such a great opportunity... The eternal bond we have created here is captured in the photos & videos... The lifelong learnings, our friendship and the new experiences really helped to emerge a leader out of us... ❤️"
   },
   {
@@ -143,7 +143,7 @@ export const testimonials = [
     age: 16,
     role: "Student",
     program: "Manthan Leadership",
-    image: "/images/IMG_0732.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/IMG_0732.jpeg`,
     quote: "My trek and stay were truly unforgettable, thanks to the excellent organization and warm hospitality. I cherish the time spent with the tribe and the new friendships formed. Thank you to everyone involved for a wonderful experience!"
   },
   {
@@ -152,7 +152,7 @@ export const testimonials = [
     age: 24,
     role: "Software Developer",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.22.44.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.22.44.jpeg`,
     quote: "\"In group trips you find friendships but in solo trips you find yourself\" This is what I used to say and believe until I came to MANTHAN. When Rajiv Sir said that \"It's not solo trips but the group trips that make you explore yourself.\", It actually made me introspect what I've been believing and yes I was proven wrong. MANTHAN actually helped me to MANTHAN within myself and helped me connect with a true version of myself. And the real reason why it happened because the real intention behind it has always been pure. It was not just a trip program made for milking the tourists, It was truly made with a purpose so every person who became part of it can explore themselves and I will always be thankful to Sir and Priya Negi Ma'am for that. It's your intention and plan that brings up 15 amazing individuals together and each and everyone has taught me so many things which will help me throughout my life. In today's world it is not easy to have such a perfect company where each and everyone is full of positivity and uniqueness and it only happened because the leaders who brought this program had a kind and meaningful purpose and that's why the universe did this magic to bring this amazing group together. And not just the people but even nature was helping all of us to explore. During the trek many obstacles came but each and every obstacle helped us to explore ourselves. And on 12th June beside all the obstacles we pitch the camp and cooked the most wonderful dinner we've ever tested and in the end we were all having fun sitting and standing bare footed in the meadow, beside the very next day we found 3 black scorpions along the trek and near our campsite. It was not just a coincidence and here it was the universe who was playing along side with all of us. It not only taught us so many things by those obstacles but also protected us when we were all having fun and enjoying. And the only reason it happened because the purpose and intention Rajiv Sir and Priya Ma'am came up with it brought these all things together and the universe became a player in it and that's why we all learned and explored ourselves."
   },
   {
@@ -161,7 +161,7 @@ export const testimonials = [
     age: 27,
     role: "Toastmaster Convenor",
     program: "Manthan Leadership",
-    image: "/images/IMG_0730.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/IMG_0730.jpeg`,
     quote: "Thank you all for making my first trip so special and full of fun!🥹🌸🌸 From swimming in the waterfall to the camp trip that maggie to that late night couple dance—every moment was amazing. I’ve made beautiful memories and met some really great people. Hope we meet again on another trip soon!💗🥂"
   },
   {
@@ -170,7 +170,7 @@ export const testimonials = [
     age: 22,
     role: "Engineering Student",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.21.16.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.21.16.jpeg`,
     quote: "So guys, this journey was honestly something special. We learned so much, met some amazing people, and made memories that’ll stick around for a long time. Really appreciated the vibe and leadership of @Rajeev sir—a genuinely inspiring guy. And somewhere along the way, I met @~Priyanshu⚔️🇮🇳 on this trek… didn’t expect to, but ended up finding a brother in him. Grateful for that bond. Good friends, good energy, and even better people. Big shoutout to everyone who was a part of this ride—you all made it unforgettable. 🙌"
   },
   {
@@ -179,7 +179,7 @@ export const testimonials = [
     age: 28,
     role: "Data Science Teacher",
     program: "Manthan Leadership",
-    image: "/images/IMG_0631.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/IMG_0631.jpeg`,
     quote: "Thank you sir , Priya Negi mam, Elite leadership guide mam, Mansi bhai for the awesome camp 😎🤍 and others for the lovely days 🤍 Will miss you all.. until next time✨ Happy Journey Everyone 😊✨ Wishing you all great years ahead 😎 🤜🏻🤛🏻"
   },
   {
@@ -188,7 +188,7 @@ export const testimonials = [
     age: 32,
     role: "IT Professional & Paper Craft Artist",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.19.48 (1).jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.19.48 (1).jpeg`,
     quote: "So very nice to be part of this great experience, this camp pushed me to explore the hidden strength inside me. Going back with a lot of new memories and friends. Would love to meet all of you again soon. Thanks again to Rajeev sir, Priya Negi ma'am for this great event. Waiting for the next meeting."
   },
   {
@@ -197,7 +197,7 @@ export const testimonials = [
     age: 24,
     role: "Software Engineer",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.19.47 (2).jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.19.47 (2).jpeg`,
     quote: "Hey Guys, most of us are still travelling and trying to get to their destinations and homes currently (and in life too) May we all find our beautiful destinations and new journeys this year. This entire camp has been extremely fun, memorable and life-changing for all of us. All Thanks to Rajeev Sir, @Priya Negi Ma'am, @Mansi Bhai you guys made sure that we all have a wonderful experience through and through. We learnt, we enjoyed, we developed, we experienced, created, and did so much more all at once. There could be no better start to this year than this experience through Manthan and it's all Thanks to the efforts of You All! May all of us keep having such wonderful journeys all year ahead. May this New Year bring more such fun, thrill, joy, development and togetherness in all of our lives. Hope to see you all soon in more amazing adventures. Happy New Year Everyone to you, your families and loved ones ✨❤️"
   },
   {
@@ -215,7 +215,7 @@ export const testimonials = [
     age: 25,
     role: "Nurse",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.19.47.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.19.47.jpeg`,
     quote: "It was unique experience, I really enjoyed especially night trekking, camping, the one cold bath, night riding, temple running, after a very long time experienced hostel life, paragliding special thanks to Rajeev sir, Priya maam & Mansi, @eveyone take care have fun Wishing you guys the best year ahead🤗♥️"
   },
   {
@@ -224,7 +224,7 @@ export const testimonials = [
     age: 29,
     role: "HR Manager",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.19.47 (1).jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.19.47 (1).jpeg`,
     quote: "Hello Everyone 🤗 Very Good Evening!! Hoping you all reached safely. After countless memories and lifetime experience I want to express my gratitude here, The Manthan Trip to Bir Billing was a truly meaningful and refreshing experience for me. The serenity of the mountains and the shared moments made it very special. I found moments of reflection, connection, and growth that I will truly cherish."
   },
   {
@@ -233,7 +233,7 @@ export const testimonials = [
     age: 37,
     role: "Corporate Employee",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.32.14.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.32.14.jpeg`,
     quote: "Heartfelt thanks to our hosts Rajeev sir, Priya maam, Mansi bhai for creating such a warm, safe, and thoughtfully guided space. Your warmth, guidance, and effort made this journey meaningful and comfortable for all of us And to all the wonderful participants, thank you for the beautiful shared conversations, laughter, silence, energy, and memories we shared. Grateful for this journey and everyone who was part of it. 🌿✨"
   },
   {
@@ -242,7 +242,7 @@ export const testimonials = [
     age: 23,
     role: "Indian Navy Officer",
     program: "Manthan Leadership",
-    image: "/images/WhatsApp Image 2026-04-09 at 22.18.32.jpeg",
+    image: `${process.env.PUBLIC_URL}/images/WhatsApp Image 2026-04-09 at 22.18.32.jpeg`,
     quote: "All you amazing & motivated peeps, thank you for all the learning and mauj masti and Rajeev sir ❤️ cycling ✅, Paragliding ✅, trekking ✅ apne sab kra ke finally capable bna hi diya to join the Armed forces. Manthan seriously transformed me as a person and helped me in joining the forces, thankyou again."
   },
   {
@@ -480,7 +480,7 @@ export const corporateBenefits = [
 ];
 
 // ─── Gallery Category Images ───────────────────────────────────────────────
-const GALLERY_BASE = "/Manthan%20photos";
+const GALLERY_BASE = `${process.env.PUBLIC_URL}/Manthan%20photos`;
 
 export const categoryImages = {
   adventures: {
