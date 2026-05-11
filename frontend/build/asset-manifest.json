@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/findmyguide/static/css/main.e68d862c.css",
+    "main.js": "/findmyguide/static/js/main.57022093.js",
+    "index.html": "/findmyguide/index.html",
+    "main.e68d862c.css.map": "/findmyguide/static/css/main.e68d862c.css.map",
+    "main.57022093.js.map": "/findmyguide/static/js/main.57022093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e68d862c.css",
+    "static/js/main.57022093.js"
+  ]
+}
