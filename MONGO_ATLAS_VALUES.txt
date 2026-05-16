@@ -1,0 +1,40 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔧 QUICK REFERENCE: MongoDB Atlas Connection Details
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COPY-PASTE THESE EXACT VALUES:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Variable Name: MONGO_URL
+
+Value:
+mongodb+srv://manthan_admin:CMC5ciM0eMcnKFfl@manthan-cluster.q9bfjtc.mongodb.net/?appName=manthan-cluster
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Variable Name: DB_NAME
+
+Value:
+manthan_db
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHERE TO ADD THESE:
+
+1. Emergent Dashboard: https://app.emergentagent.com
+2. Find your app for eliteleadershipguide.com
+3. Settings → Environment Variables
+4. Add both variables above
+5. Save → Redeploy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NEED HELP?
+
+Email: support@emergent.sh
+Subject: Update environment variables for eliteleadershipguide.com
+
+Or share your screen and I'll guide you!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

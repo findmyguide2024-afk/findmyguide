@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="/findmyguide">
+      <BrowserRouter>
         <ScrollToTop />
         <Header />
         <Routes>
